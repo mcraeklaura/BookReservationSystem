@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.csumb.mcrae.bookreservation.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context="edu.csumb.mcrae.bookreservation.MainActivity"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:id="@+id/logInButton"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/abc_search_url_text_normal" />
+
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:id="@+id/logOutButton"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/material_blue_grey_800" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:id="@+id/createAccountButton"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Hold"
+        android:id="@+id/placeHoldButton"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Hold"
+        android:id="@+id/cancelHoldButton"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage System"
+        android:id="@+id/manageSystemButton"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+</LinearLayout>
